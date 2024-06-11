@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revisão</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+        img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+    </style>
     <script defer src="scripts.js"></script>
 </head>
 <body>
@@ -14,6 +29,7 @@
             <thead>
                 <tr>
                     <th>Integrante</th>
+                    <th>Foto</th>
                     <th>Conteúdos Adquiridos</th>
                     <th>Pontos Positivos</th>
                     <th>Pontos Negativos</th>
@@ -23,6 +39,7 @@
             <tbody>
                 <tr>
                     <td>Pedro Pizarro</td>
+                    <td><img src="foto-pedro.png" alt="Foto do Pedro Pizarro"></td>
                     <td>
                         <ul>
                             <li>Banco de dados</li>
@@ -36,8 +53,9 @@
                 </tr>
                 <tr>
                     <td>Hugo Romoda</td>
+                    <td><img src="foto-hugo.png" alt="Foto do Hugo Romoda"></td>
                     <td>
-                        <ul> 
+                        <ul>
                             <li>Banco de dados</li>
                             <li>React Native</li>
                             <li>Arduíno</li>
@@ -49,6 +67,7 @@
                 </tr>
                 <tr>
                     <td>Wesley Batista</td>
+                    <td><img src="foto-wesley.png" alt="Foto do Wesley Batista"></td>
                     <td>
                         <ul>
                             <li>Banco de dados</li>
@@ -60,6 +79,7 @@
                     <td>Dificuldade um pouco em React Native, principalmente quando as instalações falham e os códigos corrompem, tendo que refazer todo o processo desde o início (devido a isso, a perda de tempo é notável e o estresse também começa a subir deixando o trabalho mais desgastante).</td>
                     <td class="percent">75</td>
                 </tr>
+                <!-- Adicione as informações e a imagem para os outros integrantes aqui -->
             </tbody>
         </table>
     </div>
